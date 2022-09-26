@@ -1,0 +1,10 @@
+<table>
+    <tr><td>Produtos Cadastrados</td></tr>
+    {% for item in datas %}
+    <tr>
+        <td>Nome {{item[0]}}</td>
+        <td>Preço {{item[1]}}</td>
+        <td>Categoria {{item[2]}}</td>
+    </tr>
+    {% endfor %}
+    </table>
