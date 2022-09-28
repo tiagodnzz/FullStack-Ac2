@@ -43,10 +43,25 @@ if __name__ == "__main__":
     app.run(host='0.0.0.0', port=port)
 
 
+
+    #Entra no repo
+
+    # docker-compose up - d
+
+    # docker-compose ps
+
+    # docker exec -it nome-servico-banco /bin/bash
+
+    # mysql -u root -p
+
+    # coloca sua senha
+
     # SQL
 
     # create schema banco;
 
     # use banco;
 
-    # CREATE TABLE tbl_prod ( prod_id BIGINT NOT NULL AUTO_INCREMENT, prod_nome VARCHAR(45) NULL, prod_preco VARCHAR(45) NULL, prod_categoria VARCHAR(45) NULL, PRIMARY KEY (user_id));
+    # CREATE TABLE tbl_prod ( prod_id BIGINT NOT NULL AUTO_INCREMENT, prod_nome VARCHAR(45) NULL, prod_preco VARCHAR(45) NULL, prod_categoria VARCHAR(45) NULL, PRIMARY KEY (prod_id));
+
+    # seja Feliz
